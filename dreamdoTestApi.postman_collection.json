@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "5a18cbad-5c76-4dd2-9f18-a186dc7d9409",
+		"name": "dreamdoTestApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "testCreateItem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
