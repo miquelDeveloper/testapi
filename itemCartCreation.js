@@ -61,7 +61,7 @@ const createItemCar = (requestQuery) => {
         });
     })
 }
-//console.log(itemCartData)
+console.log(itemCartData)
 /** llamada a la funcion que realiza la request pasandole el objeto formdata */
 createItemCar(itemCartData)
     .then(resp => console.log(resp))

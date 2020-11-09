@@ -1,20 +1,76 @@
 {
 	"info": {
-		"_postman_id": "5a18cbad-5c76-4dd2-9f18-a186dc7d9409",
-		"name": "dreamdoTestApi",
+		"_postman_id": "9f1e2bfc-c200-4ab4-9787-552cccc23915",
+		"name": "ggh",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "testCreateItem",
+			"name": "https://imatsandbox.materialise.net/web-api/cartitems/register",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "data",
+							"value": "{\n  _overheadLength: 0,\n  _valueLength: 0,\n  _valuesToMeasure: [],\n  writable: false,\n  readable: true,\n  dataSize: 0,\n  maxDataSize: 2097152,\n  pauseStreams: true,\n  _released: false,\n  _streams: [],\n  _currentStream: null,\n  _insideLoop: false,\n  _pendingNext: false,\n  cartItems: [\n    {\n      toolID: 'ae3b32c2-2432-43fe-b07b-311211c255e7',\n      MyCartItemReference: 'DR_ZUt0UXlRG',\n      modelID: '6e0ede4a-5507-48d5-8eac-cec6682cded5',\n      fileScaleFactor: 1,\n      materialID: '035f4772-da8a-400b-8be4-2dd344b28ddb',\n      finishID: 'bba2bebb-8895-4049-aeb0-ab651cee2597',\n      quantity: 1,\n      xDimMm: 23.11,\n      yDimMm: 8,\n      zDimMm: 22.99,\n      volumeCm3: 0.19,\n      surfaceCm2: 5.11,\n      iMatAPIPrice: 12.75,\n      mySalesPrice: 14.66,\n      currency: 'EUR'\n    }\n  ]\n}\n",
+							"contentType": "application/json",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {}
+					}
+				},
 				"url": {
-					"raw": ""
+					"raw": "https://imatsandbox.materialise.net/web-api/cartitems/register",
+					"protocol": "https",
+					"host": [
+						"imatsandbox",
+						"materialise",
+						"net"
+					],
+					"path": [
+						"web-api",
+						"cartitems",
+						"register"
+					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://imatsandbox.materialise.net/web-api/cartitems/register",
+							"protocol": "https",
+							"host": [
+								"imatsandbox",
+								"materialise",
+								"net"
+							],
+							"path": [
+								"web-api",
+								"cartitems",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
 		}
 	],
 	"protocolProfileBehavior": {}
